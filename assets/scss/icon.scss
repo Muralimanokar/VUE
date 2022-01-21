@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "icons";
+    src: url("../fonts/icons.eot");
+    src: url("../fonts/icons.eot?#iefix") format("eot"), url("../fonts/icons.woff") format("woff"), url("../fonts/icons.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal; }
+  
+  .icon:before {
+    display: inline-block;
+    font-family: "icons";
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; }
+  
+  .icon-lg {
+    font-size: 1.3333333333333333em;
+    line-height: 0.75em;
+    vertical-align: -15%; }
+  
+  .icon-2x {
+    font-size: 2em; }
+  
+  .icon-3x {
+    font-size: 3em; }
+  
+  .icon-4x {
+    font-size: 4em; }
+  
+  .icon-5x {
+    font-size: 5em; }
+  
+  .icon-fw {
+    width: 1.2857142857142858em;
+    text-align: center; }
+  
+  .icon-customer:before {
+    content: "\E001"; }
+  
+  .icon-tier:before {
+    content: "\E002"; }
+  
+  .icon-pointtransfer:before {
+    content: "\E003"; }
+  
+  .icon-transactions:before {
+    content: "\E004"; }
+  
+  .icon-earningrules:before {
+    content: "\E005"; }
+  
+  .icon-merchants:before {
+    content: "\E006"; }
+  
+  .icon-segments:before {
+    content: "\E007"; }
+  
+  .icon-rewardcampaigns:before {
+    content: "\E008"; }
+  
+  .icon-home:before {
+    content: "\E002" }
+  
+  .icon-dashboard:before {
+    content: "\E002" }
+  
+  .icon-analysisandreport:before {
+    content: "\E002" }
+  
+  .icon-broadcastcampaign:before {
+    content: "\E002" }
+  

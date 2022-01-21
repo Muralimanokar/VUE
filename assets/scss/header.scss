@@ -1,0 +1,74 @@
+.header-top-sec {
+    background-color: $secondary;
+    .header-top-menu {
+        li {
+            margin-left: 20px;
+            color: #fff;
+            a {
+                color: #fff;
+            }
+        }
+    }
+}
+.header-btm-menu {
+    box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    .navbar-nav {
+        .nav-item {
+            margin-right:20px;
+            .nav-link {
+                padding: 10px 5px;
+                font-weight:400;
+                font-size: 13px;
+                .menuicon {
+                    font-size: 25px;
+                    margin-bottom:5px;
+                    @media only screen and (max-width: 767px){
+                        display: inline-block !important;  
+                        font-size: 15px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+            &.active{
+                border-bottom:3px solid $secondary;
+                .nav-link {
+                    color: $secondary;
+                } 
+            }
+            &:hover{
+                .nav-link {
+                    color: $secondary;
+                } 
+            }
+        }
+    }
+}
+.navbar-brand{
+    @media only screen and (max-width: 767px){
+        max-width:150px;
+        img{
+            max-width: 100%;
+        }
+    }
+}
+.navbar .container{
+    @media only screen and (max-width: 767px){
+        display: block !important;
+    }  
+}
+.navbar-toggler{
+    padding:5px 5px;
+    margin:5px 5px 5px 20px;
+    border: 1px solid #fff;
+    background: #fff;
+    .navbar-toggler-icon{
+        width: .5em;
+        height: .5em;
+
+    }
+}
+
+.profile-icon .dropdown-menu a{
+ font-size: 13px;
+}
